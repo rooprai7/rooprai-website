@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title id="page-title">Harbinder Singh Rooprai | Personal Website</title>
+<meta id="meta-description" name="description" content="">
+<style>
+:root{--navy:#07182f;--gold:#c99a45;--cream:#f8f5ee;--ink:#17233a;--muted:#667085}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Arial,Helvetica,sans-serif;color:var(--ink);background:#fff;line-height:1.65}
+h1,h2,h3{font-family:Georgia,"Times New Roman",serif;font-weight:500;line-height:1.15;margin:0}
+a{text-decoration:none;color:inherit}.container{width:min(1120px,92%);margin:auto}
+header{position:sticky;top:0;z-index:20;background:rgba(255,255,255,.96);border-bottom:1px solid #eee;backdrop-filter:blur(10px)}
+.nav{height:76px;display:flex;align-items:center;justify-content:space-between}.brand{display:flex;align-items:center;gap:13px}
+.logo{width:52px;height:52px;border:1.5px solid var(--gold);border-radius:50%;display:grid;place-items:center;font-family:Georgia,serif;font-size:18px;color:var(--gold);line-height:1}
+.brand strong{font-family:Georgia,serif;font-size:19px;letter-spacing:.8px}.brand small{display:block;font-size:9px;letter-spacing:3px;color:#7a8492;margin-top:2px}
+nav{display:flex;gap:30px;font-size:14px}nav a:hover{color:var(--gold)}
+.hero{min-height:590px;background:linear-gradient(90deg,rgba(5,20,43,.97) 0%,rgba(5,20,43,.83) 42%,rgba(5,20,43,.18) 78%),url('profile.jpg') center 38%/cover;display:flex;align-items:center;color:#fff}
+.hero .copy{max-width:650px;padding:85px 0}.eyebrow{font-size:12px;letter-spacing:4px;color:#e1b45c;text-transform:uppercase;margin-bottom:18px}
+.hero h1{font-size:clamp(44px,6vw,74px);margin-bottom:18px}.tagline{letter-spacing:3px;font-size:13px;text-transform:uppercase;margin-bottom:25px}.hero p{font-size:17px;max-width:620px;color:#edf1f7}
+.buttons{display:flex;gap:14px;margin-top:30px;flex-wrap:wrap}.btn{padding:13px 22px;border:1px solid var(--gold);font-size:13px;letter-spacing:.5px}.btn.primary{background:var(--gold);color:#101a2c}.btn.secondary{color:#fff;border-color:#fff}
+section{padding:85px 0}.about{background:var(--cream)}.grid2{display:grid;grid-template-columns:360px 1fr;gap:65px;align-items:center}.portrait{width:100%;height:430px;object-fit:cover;border-radius:4px}
+.section-label{font-size:11px;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-bottom:14px}.about h2{font-size:43px;margin-bottom:20px}.about p{color:#4c596b}.signature{font-family:cursive;font-size:22px;margin-top:20px}
+.business{background:#fff}.business-box{display:grid;grid-template-columns:1fr 390px;gap:55px;align-items:center}.business h2{font-size:48px}.business img{width:100%;height:280px;object-fit:cover;border-radius:4px}.pill{display:inline-block;margin:18px 0;color:#7c5b22;letter-spacing:3px;font-size:10px}
+.blog{background:#f7f8fa}.section-head{display:flex;justify-content:space-between;align-items:end;margin-bottom:28px}.section-head h2{font-size:43px}.posts{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}.card{background:#fff;border:1px solid #e6e9ee}.card img{width:100%;height:190px;object-fit:cover}.card-body{padding:22px}.meta{font-size:10px;letter-spacing:2px;color:var(--gold);text-transform:uppercase}.card h3{font-size:23px;margin:9px 0}.card p{color:var(--muted);font-size:14px}
+.gallery{display:grid;grid-template-columns:1fr 1fr;gap:22px}.gallery img{width:100%;height:420px;object-fit:cover;border-radius:4px}
+.contact{background:var(--navy);color:#fff}.contact h2{font-size:46px}.contact p{color:#c9d1df}.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:70px}.contact a{color:#e1b45c}.contact-line{padding:14px 0;border-bottom:1px solid #33445f}
+footer{background:#041124;color:#aeb8c8;padding:28px 0;font-size:12px}.footer-inner{display:flex;justify-content:space-between;gap:20px;align-items:center}
+@media(max-width:800px){nav{display:none}.hero{min-height:620px}.hero .copy{padding:65px 0}.grid2,.business-box,.contact-grid{grid-template-columns:1fr;gap:35px}.posts{grid-template-columns:1fr}.gallery{grid-template-columns:1fr}.portrait{height:380px}.gallery img{height:360px}.section-head{display:block}.section-head a{display:inline-block;margin-top:12px}.brand strong{font-size:15px}.brand small{font-size:7px}}
+</style>
+</head>
+<body>
+<header><div class="container nav">
+<a class="brand" href="#home"><span class="logo">HSR</span><span><strong>HARBINDER SINGH ROOPRAI</strong><small>THOUGHTS · EXPERIENCES · TRAVEL</small></span></a>
+<nav><a href="#home">Home</a><a href="#about">About</a><a href="#business">Perfect Rail</a><a href="#blog">Blog</a><a href="#gallery">Gallery</a><a href="#contact">Contact</a></nav>
+</div></header>
+
+<main>
+<section id="home" class="hero"><div class="container"><div class="copy">
+<div class="eyebrow" id="hero-eyebrow">Welcome to my personal space</div>
+<h1 id="hero-name">Harbinder Singh Rooprai</h1>
+<div class="tagline" id="hero-tagline">Computer Engineer · Entrepreneur · Traveller</div>
+<p id="hero-description"></p>
+<div class="buttons"><a class="btn primary" id="hero-blog-button" href="#blog">Read My Blog</a><a class="btn secondary" id="hero-contact-button" href="#contact">Get in Touch</a></div>
+</div></div></section>
+
+<section id="about" class="about"><div class="container grid2">
+<img class="portrait" id="about-image" src="profile.jpg" alt="Harbinder Singh Rooprai">
+<div><div class="section-label" id="about-label">About Me</div><h2 id="about-heading">A little about me</h2>
+<p id="about-paragraph-1"></p>
+<p id="about-paragraph-2"></p>
+<div class="signature" id="signature">Harbinder Singh Rooprai</div></div>
+</div></section>
+
+<section id="business" class="business"><div class="container business-box">
+<div><div class="section-label" id="business-label">Family Business</div><h2 id="business-name">Perfect Rail</h2><span class="pill" id="business-pill">DOOR HARDWARE · QUALITY · PRECISION</span>
+<p id="business-description"></p></div>
+<img id="business-image" src="profile.jpg" alt="Perfect Rail">
+</div></section>
+
+<section id="blog" class="blog"><div class="container">
+<div class="section-head"><div><div class="section-label" id="blog-label">Latest from my blog</div><h2 id="blog-heading">Thoughts, Stories & More</h2></div><a id="blog-view-all" href="#blog">View All Posts →</a></div>
+<div class="posts" id="posts"></div></div></section>
+
+<section id="gallery"><div class="container"><div class="section-label" id="gallery-label">Gallery</div><h2 id="gallery-heading" style="font-size:43px;margin-bottom:28px">A few moments</h2><div class="gallery"><img id="gallery-image-1" src="travel.jpg" alt="Harbinder Singh Rooprai travelling"><img id="gallery-image-2" src="profile.jpg" alt="Harbinder Singh Rooprai"></div></div></section>
+
+<section id="contact" class="contact"><div class="container contact-grid">
+<div><div class="section-label" id="contact-label">Get in touch</div><h2 id="contact-heading">Let’s connect.</h2><p id="contact-description"></p></div>
+<div><div class="contact-line">Location <strong id="contact-location"></strong></div><div class="contact-line">Email <strong>— <a id="contact-email-link"></a></strong></div><div class="contact-line">Website <strong>— <span id="contact-website"></span></strong></div></div>
+</div></section>
+</main>
+
+<footer><div class="container footer-inner"><div><span id="footer-copyright">© 2026 Harbinder Singh Rooprai. All rights reserved.</span></div><div id="footer-brand">HSR · Personal Website</div></div></footer>
+
+<script>
+(async function () {
+  function set(id, value) {
+    const el = document.getElementById(id);
+    if (el && value !== undefined && value !== null) el.textContent = value;
+  }
+  function image(id, value, alt) {
+    const el = document.getElementById(id);
+    if (el && value) { el.src = value; if (alt) el.alt = alt; }
+  }
+  try {
+    const [homeRes, blogRes] = await Promise.all([
+      fetch('/content/home.json', {cache:'no-store'}),
+      fetch('/content/blog.json', {cache:'no-store'})
+    ]);
+    if (!homeRes.ok || !blogRes.ok) throw new Error('Content files could not be loaded');
+    const home = await homeRes.json();
+    const blog = await blogRes.json();
+
+    document.title = home.title;
+    document.getElementById('meta-description')?.setAttribute('content', home.description);
+    set('hero-eyebrow', home.hero.eyebrow); set('hero-name', home.hero.name);
+    set('hero-tagline', home.hero.tagline); set('hero-description', home.hero.description);
+    set('hero-blog-button', home.hero.blog_button); set('hero-contact-button', home.hero.contact_button);
+    document.getElementById('hero-blog-button')?.setAttribute('href','#blog');
+    document.getElementById('hero-contact-button')?.setAttribute('href','#contact');
+    if (home.hero.background_image) document.querySelector('.hero').style.backgroundImage =
+      "linear-gradient(90deg,rgba(5,20,43,.97) 0%,rgba(5,20,43,.83) 42%,rgba(5,20,43,.18) 78%),url('" + home.hero.background_image + "')";
+
+    set('about-label', home.about.label); set('about-heading', home.about.heading);
+    document.getElementById('about-paragraph-1').innerHTML = home.about.paragraph1.replace(/Perfect Rail/g,'<strong>Perfect Rail</strong>');
+    set('about-paragraph-2', home.about.paragraph2); set('signature', home.about.signature);
+    image('about-image', home.about.image, home.about.heading);
+
+    set('business-label', home.business.label); set('business-name', home.business.name);
+    set('business-pill', home.business.pill); set('business-description', home.business.description);
+    image('business-image', home.business.image, home.business.name);
+
+    set('blog-label', home.blog_section.label); set('blog-heading', home.blog_section.heading);
+    set('blog-view-all', home.blog_section.view_all); document.getElementById('blog-view-all')?.setAttribute('href','#blog');
+
+    set('gallery-label', home.gallery.label); set('gallery-heading', home.gallery.heading);
+    image('gallery-image-1', home.gallery.image1, 'Gallery'); image('gallery-image-2', home.gallery.image2, 'Gallery');
+
+    set('contact-label', home.contact.label); set('contact-heading', home.contact.heading);
+    set('contact-description', home.contact.description); set('contact-location', '— ' + home.contact.location);
+    const email = document.getElementById('contact-email-link');
+    if (email) { email.textContent = home.contact.email; email.href = 'mailto:' + home.contact.email; }
+    set('contact-website', home.contact.website);
+    set('footer-copyright', home.footer.copyright); set('footer-brand', home.footer.brand);
+
+    const posts = document.getElementById('posts');
+    posts.innerHTML = (blog.posts || []).map(p => `
+      <article class="card">
+        <img src="${p.image || ''}" alt="${p.title || ''}">
+        <div class="card-body">
+          <div class="meta">${p.category || ''}</div>
+          <h3>${p.title || ''}</h3>
+          <p>${p.description || ''}</p>
+          <a href="${p.link || '#contact'}">${p.link_text || 'Read more →'}</a>
+        </div>
+      </article>`).join('');
+  } catch (error) {
+    console.warn('CMS content could not be loaded; keeping fallback HTML.', error);
+  }
+})();
+</script>
+
+</body>
+</html>

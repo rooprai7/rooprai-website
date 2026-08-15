@@ -1,0 +1,28 @@
+{
+  "posts": [
+    {
+      "category": "Travel · Coming Soon",
+      "title": "New Places, Fresh Perspectives",
+      "description": "A space for travel stories, memorable places and experiences from the road.",
+      "image": "/travel.jpg",
+      "link": "#contact",
+      "link_text": "Read more →"
+    },
+    {
+      "category": "Life & Learning · Coming Soon",
+      "title": "Things I Find Interesting",
+      "description": "Thoughts on business, technology, people, learning and everyday life.",
+      "image": "/profile.jpg",
+      "link": "#contact",
+      "link_text": "Read more →"
+    },
+    {
+      "category": "Experiences · Coming Soon",
+      "title": "Stories Along the Way",
+      "description": "Personal experiences and observations that are worth remembering and sharing.",
+      "image": "/travel.jpg",
+      "link": "#contact",
+      "link_text": "Read more →"
+    }
+  ]
+}

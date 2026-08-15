@@ -1,0 +1,51 @@
+{
+  "title": "Harbinder Singh Rooprai | Personal Website",
+  "description": "Personal website of Harbinder Singh Rooprai — computer engineer, entrepreneur, traveller and writer based in Noida, India.",
+  "hero": {
+    "eyebrow": "Welcome to my personal space",
+    "name": "Harbinder Singh Rooprai",
+    "tagline": "Computer Engineer · Entrepreneur · Traveller",
+    "description": "I am a Computer Engineer by education and an entrepreneur by profession. I run my family business, Perfect Rail, and enjoy travelling, discovering new places and experiencing different cultures.",
+    "blog_button": "Read My Blog",
+    "contact_button": "Get in Touch",
+    "background_image": "/profile.jpg"
+  },
+  "about": {
+    "label": "About Me",
+    "heading": "A little about me",
+    "paragraph1": "I am a Computer Engineer by education and an entrepreneur by profession. I run my family’s manufacturing business, Perfect Rail, a brand specialising in door hardware.",
+    "paragraph2": "Based in Noida, India, I enjoy exploring new places, travelling and experiencing different cultures. This website is my personal space to share thoughts, experiences, travel stories and things I find interesting.",
+    "signature": "Harbinder Singh Rooprai",
+    "image": "/profile.jpg"
+  },
+  "business": {
+    "label": "Family Business",
+    "name": "Perfect Rail",
+    "pill": "DOOR HARDWARE · QUALITY · PRECISION",
+    "description": "Perfect Rail is our family business, manufacturing door hardware with a focus on practical design, quality and reliability.",
+    "image": "/profile.jpg"
+  },
+  "blog_section": {
+    "label": "Latest from my blog",
+    "heading": "Thoughts, Stories & More",
+    "view_all": "View All Posts →"
+  },
+  "gallery": {
+    "label": "Gallery",
+    "heading": "A few moments",
+    "image1": "/travel.jpg",
+    "image2": "/profile.jpg"
+  },
+  "contact": {
+    "label": "Get in touch",
+    "heading": "Let’s connect.",
+    "description": "If you would like to get in touch, feel free to reach out.",
+    "location": "Noida, India",
+    "email": "hello@rooprai.uk",
+    "website": "rooprai.uk"
+  },
+  "footer": {
+    "copyright": "© 2026 Harbinder Singh Rooprai. All rights reserved.",
+    "brand": "HSR · Personal Website"
+  }
+}
