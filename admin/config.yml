@@ -2,8 +2,8 @@ backend:
   name: github
   repo: rooprai7/rooprai-website
   branch: main
-  base_url: https://rooprai.uk
-  auth_endpoint: /oauth
+  base_url: https://auth.rooprai.uk
+  auth_endpoint: /auth
 
 media_folder: "images/uploads"
 public_folder: "/images/uploads"
